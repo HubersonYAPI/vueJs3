@@ -22,6 +22,14 @@ const routes = [
     // this generates a separate chunk (tut1.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "tut1" */ '../views/pages/tut1.vue')
+  },
+  {
+    path: '/reaction',
+    name: 'reaction',
+    // route level code-splitting
+    // this generates a separate chunk (tut1.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "tut1" */ '../views/pages/reaction.vue')
   }
 ]
 
