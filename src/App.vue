@@ -4,6 +4,7 @@
     <router-link to="/model">Model</router-link> |
     <router-link to="/reaction">Reaction</router-link> |
     <router-link to="/form">Web-Form</router-link> |
+    <router-link to="/music">Projet Audio</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view/>

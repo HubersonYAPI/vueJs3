@@ -26,7 +26,7 @@
       </div>
 
       <div class="submit">
-          <button>Creer un compte</button>
+          <button class="button">Creer un compte</button>
       </div>
 
     
@@ -131,7 +131,7 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
-button {
+.button {
     background: #0b6dff;
     border: 0;
     padding: 10px 20px;
