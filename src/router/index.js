@@ -16,20 +16,27 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/tut1',
-    name: 'tut1',
+    path: '/model',
+    name: 'Model',
     // route level code-splitting
-    // this generates a separate chunk (tut1.[hash].js) for this route
+    // this generates a separate chunk (model.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "tut1" */ '../views/pages/tut1.vue')
+    component: () => import(/* webpackChunkName: "model" */ '../views/pages/Model.vue')
+  },{
+    path: '/form',
+    name: 'Form',
+    // route level code-splitting
+    // this generates a separate chunk (form.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "form" */ '../views/pages/Form.vue')
   },
   {
     path: '/reaction',
-    name: 'reaction',
+    name: 'Reaction',
     // route level code-splitting
-    // this generates a separate chunk (tut1.[hash].js) for this route
+    // this generates a separate chunk (reaction.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "tut1" */ '../views/pages/reaction.vue')
+    component: () => import(/* webpackChunkName: "reaction" */ '../views/pages/Reaction.vue')
   }
 ]
 
